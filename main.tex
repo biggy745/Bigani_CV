@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Bigani} % Your first name
+\familyname{Sehurutshi} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{P.O Box 70625}{Gaborone, Botswana}
+\mobile{(267) 74591855}
+\phone{(267) 3554887}
+\fax{(267) 355 4194}
+\email {sehurub@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{ }
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\label{Summary}
+
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+
+% SUMMARY SECTION
+%-------------------------------------------------------------
+%--------------------------------------------------------------------
+
+%	RESEARCH SECTION
+%--------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+%	WORK EXPERIENCE SECTION
+%-------------------------------------------------------------
+
+\section{Professional Experience}
+
+%\subsection{Vocational}
+\cventry{April 2010--Present}{HPC System Administrator}{\textsc{Department of Computer Science }}{University of Botswana}{}{
+\newline{}\newline{}
+\begin{itemize}{
+\item Install, configure, upgrade, troubleshoot and administration of Web servers, Databases and Linux and Windows servers.
+\item Install,configure and troubleshoot Linux Servers and Desktops.
+\item Linux Server Administration(Virtualization, NFS, DHCP, LDAP, Reverse proxy, FTP,SSH, VPN and LVM).
+\item Orchestrated containerized applications using Docker and Kubernetes, ensuring efficient resource utilization and scalability.
+\item Excellent knowledge in designing, prototyping and deploying HPC clusters.
+\item Installing and supporting parallel computing environments (e.g. OpenMPI, MVAPICH, etc.)
+\item Create, maintain and implement scripts in order to reduce administrative efforts. 
+\item Infrastructure procurement, management and maintenance.
+\item Configure and administer Databases, Networks and Web-servers used for teaching. Web standards (HTTP, JSON, RESTful APIs).
+\item Tech lead in Cloud Computing Solutions (RDS, DynamoDB,and Aurora, EC2, Beanstalk, EKS and Lambda, Amazon S3, EBS and EFS).
+\item Experience administering, configuring, and supporting HPC clusters, including systems with accelerators, and high performance file systems and storage. This includes hardware installation, configuration, upgrades and repairs.
+\item Scientific Computing Application deployment and support (WRF,Ansys AnyBLAST, TOMO3D, R, MATLAB, QGIS, Gaussian,jif3D, Spades and many more.)
+\item Train and support Students, Staff  on Linux and AWS Cloud courses. 
+\item Marketing, budgeting,creative teaching, train Instructors and extensive outreach programs for the Linux and AWS Academy.
+\end{itemize}}}
+
+%------------------------------------------------
+
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2015}{Masters of Science Computer Information Systems}{The University of Botswana}{Gaborone}{\textit{Botswana}}{}  % Arguments not required can be left empty
+\cventry{2009}{Bachelor of Information Systems(Computer Information Systems)}{The University of Botswana}{Gaborone}{\textit{Botswana}}{}
+
+%----------------------------------------------------------------------------------------
+
+%	CERTIFICATION SECTION
+%-------------------------------------------------------------
+
+\section{Certifications}
+\cvitem{2023}{AWS Certified Solutions Architect- Associate}
+\cvitem{2023}{LPI Security Essentials}
+\cvitem{2022}{Linux Foundation Devops and SRE Fundamentals}
+\cvitem{2021}{Microsoft Certified Azure Fundamentals }
+\cvitem{2021}{AWS Certified Cloud Practitioner}
+\cvitem{2020}{LPIC-1 LINUX Administrator(LPI) }
+\cvitem{2016}{COBIT 5 FOUNDATION (2016)}
+\cvitem{2014}{ITIL Foundation Certificate In IT Service Management}
+\cvitem{2013}{SAP ERP4school Foundation}
+
+%-------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Programming}{\textsc{java}, {Python}, {HTML}, {Perl},{Ruby}, {PHP} and {Bash scripting}}
+\cvitem{Databases}{\textsc{MYSQL}, MARIADB, POSTGRESQL, ORACLE, RDS and DYNAMODB}
+\cvitem {Webserver}{\textsc{APACHE}, NGINX, TOMCAT}
+\cvitem{Utilities/Tools}{SAMBA, OPENHPC, KICKSTART, REMMINA, Nmap, Openvas, openssh, Wireshark, Packet Tracer, GNS3, backtrack, security onion and putty.}
+\cvitem{Version Control systems}{GIT and GITLAB}
+\cvitem{CI/CD Tools}{Jenkins and Gitlab CI}
+\cvitem{Monitoring Tools}{Nagios, Grafana  and Ganglia}
+\cvitem{Cloud Platforms}{\textsc{AWS}, Microsoft AZURE, Google Cloud Platform (GCP) and OPENSTACK}
+\cvitem{Networking}{Routing Protocols, IP Addressing, TCP/IP, VLANS, Network Security, DNS.DHCP, VPC, Load Balancers}
+\cvitem{Security}{IAM, Security Groups, NEtwork ACL Policies and roles.}
+\cvitem{Virtualization}{Virtualbox,Xenserver and VMWARE}
+\cvitem{Infrastructure as Code}{Cloudformation, Terraform}
+\cvitem{Containers and Orchestration}{LXC, LXD, Docker, Podman, FreeBSD Jails, Openshift and Kubernetes}
+\cvitem{Configuration Management}{Ansible, Puppet, Cobbler}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%-------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+
+%PROFESSIONAL MEMBERSHIP SECTION
+%------------------------------------------------------------------------------
+
+\section{Professional Membership}
+
+\cvitem{}{A member of Institute of Information Technology Professionals South Africa, membership no: S043688}
+\cvitem{}{ A member of the Linux Professional Institute, LPI ID: LPI000297068}
+
+
+%----------------------------------------------------------------------------------------
+\section{References}
+\cvitem{}{Available Upon Request}
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
